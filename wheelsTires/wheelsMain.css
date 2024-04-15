@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+   
+    /* background: rgb(9,9,121);
+    background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 51%); */
+    background-repeat: no-repeat;
+    background: rgba(20,20,20,1);
+background: -moz-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 61%, rgba(31,31,31,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(20,20,20,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(61%, rgba(31,31,31,1)), color-stop(100%, rgba(31,31,31,1)));
+background: -webkit-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 61%, rgba(31,31,31,1) 100%);
+background: -o-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 61%, rgba(31,31,31,1) 100%);
+background: -ms-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 61%, rgba(31,31,31,1) 100%);
+background: linear-gradient(to bottom, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 61%, rgba(31,31,31,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#1f1f1f', GradientType=0 );
+}
+/* TYPO */
+
+.roboto-m {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+  .UL__section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.UL__menu {
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+    font-size: 22px;
+    height: 100px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.right__menu { 
+    margin-right: 20px;
+}
+.left__menu {
+    gap:100px ;
+}
+
+.A__class {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: WHITE;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom ;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom ;
+  }
+
+
+
+  /* W H E E L    G A L L E R Y */
+
+.div__main {
+   display: flex;
+   justify-content: space-between;
+  margin-top: 5%;
+}
+.wheel__Side {
+  display: flex; 
+  width: 400px;
+  flex-wrap: wrap;
+}
+.wheel1 {
+  width: 300px;
+}
+.tire1 {
+  width: 300px;
+}
+.Tire__side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 50px;
+}
